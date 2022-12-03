@@ -77,6 +77,20 @@
     color: white;
 }
 .baslik{
-    color: white;
-    font-size: 24px;
+        font-size: 24px;
+}
+/* Çalışanlar */
+.calisan{
+    width: 150px;
+}
+.calisan_foto{
+    height:150px;
+    width: 150px;
+    background-color: #D8090D;
+    border-radius: 100px;
+}
+.calisan_foto img{
+    height: 150px;
+    width: 150px;
+    border-radius: 100px;
 }
