@@ -122,3 +122,21 @@
     font-size: 100px;
     color: white;
 }
+.calisma{
+    padding: 5px;
+    
+}
+.calisma:hover{
+    border: 1px solid gray;
+    cursor: pointer;
+}
+.calisma-icon{
+    font-size: 100px;
+    background-color: #D8090D;
+    color: white;
+    background-attachment: fixed;
+    background-position: center center;
+    height: 150px;
+    width: 150px;
+    display: flex;
+}
