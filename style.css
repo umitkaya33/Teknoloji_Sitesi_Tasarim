@@ -18,6 +18,7 @@
     background-repeat: no-repeat;
     background-attachment: fixed;
     }
+
 .nav-item a{
     color: #ffff;
     font-size: 16px;
@@ -25,4 +26,22 @@
 }
 .nav-item a:hover{
     color: #D8090D;
+}
+.bosluk{
+    margin-top: 100px;
+}
+.orta{
+    height: 200px;
+    justify-content: center;
+    }
+@media screen and (max-width:992px) {
+    .ayrac{
+        display: none;
+    }
+    .nav-item:hover{
+        background-color: black;
+    }
+    .orta{
+        height: 100px;
+    }
 }
