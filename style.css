@@ -76,21 +76,49 @@
     background-color: #D8090D;
     color: white;
 }
-.baslik{
-        font-size: 24px;
+
+.baslik {
+    font-size: 24px;
 }
+
 /* Çalışanlar */
-.calisan{
+.calisan {
     width: 150px;
 }
-.calisan_foto{
-    height:150px;
+
+.calisan_foto {
+    height: 150px;
     width: 150px;
     background-color: #D8090D;
     border-radius: 100px;
 }
-.calisan_foto img{
+
+.calisan_foto img {
     height: 150px;
     width: 150px;
     border-radius: 100px;
+}
+
+.tirnak1 {
+    color: #D8090D;
+    font-size: 52px;
+    font-weight: bold;
+}
+
+.soz {
+    font-size: 36px;
+    color: white;
+}
+
+.slogan {
+    background-image: url(image/ust-bg.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center center;
+    height: 400px;
+}
+
+.rocket-icon {
+    font-size: 100px;
+    color: white;
 }
