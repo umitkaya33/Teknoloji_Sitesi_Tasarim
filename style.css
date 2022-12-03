@@ -137,6 +137,8 @@
 .calisma:hover {
     border: 1px solid gray;
     cursor: pointer;
+    color: #D8090D;
+    font-weight: bold;
 }
 
 .calisma-icon {
