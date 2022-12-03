@@ -41,6 +41,7 @@
     justify-content: center;
 }
 
+/* mobil kısmı */
 @media screen and (max-width:992px) {
     .ayrac {
         display: none;
@@ -54,14 +55,28 @@
         height: 100px;
     }
 }
+
+/* teklif kısmı */
 .teklif {
     height: 60px;
 }
-.tirnak{
+
+.tirnak {
     color: #D8090D;
     font-size: 36px;
     font-weight: bold;
 }
-.imza{
+
+.imza {
     font-size: 20px;
+}
+
+/* hizmetlerimiz css kodlar */
+.hizmetlerimiz {
+    background-color: #D8090D;
+    color: white;
+}
+.baslik{
+    color: white;
+    font-size: 24px;
 }
