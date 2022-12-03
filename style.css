@@ -122,15 +122,19 @@
     font-size: 100px;
     color: white;
 }
-.calisma{
+
+/* Çalışmalar Alanı */
+.calisma {
     padding: 5px;
-    
+
 }
-.calisma:hover{
+
+.calisma:hover {
     border: 1px solid gray;
     cursor: pointer;
 }
-.calisma-icon{
+
+.calisma-icon {
     font-size: 100px;
     background-color: #D8090D;
     color: white;
@@ -139,4 +143,19 @@
     height: 150px;
     width: 150px;
     display: flex;
+}
+
+/* Footer Alanı */
+.footer {
+    background-color: #2c3e50;
+    height: 300px;
+    color: #95a5a6;
+}
+
+.footer p {
+    font-size: 16px;
+}
+
+.footer-sutun {
+    height: 300px;
 }
