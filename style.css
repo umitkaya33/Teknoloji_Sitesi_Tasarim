@@ -1,15 +1,18 @@
-.logo{
+.logo {
     height: 50px;
 }
-.ayrac{
+
+.ayrac {
     font-size: 20px;
     margin: 0px 20px;
     color: white;
 }
-.nav-bg{
+
+.nav-bg {
     background-color: rgba(71, 71, 71, 0.45);
 }
-.ust-kisim{
+
+.ust-kisim {
     background-image: url(image/ust-bg.jpg);
     height: 100vh;
     width: 100%;
@@ -17,31 +20,48 @@
     background-position: center center;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    }
+}
 
-.nav-item a{
+.nav-item a {
     color: #ffff;
     font-size: 16px;
     font-weight: bold;
 }
-.nav-item a:hover{
+
+.nav-item a:hover {
     color: #D8090D;
 }
-.bosluk{
+
+.bosluk {
     margin-top: 100px;
 }
-.orta{
+
+.orta {
     height: 200px;
     justify-content: center;
-    }
+}
+
 @media screen and (max-width:992px) {
-    .ayrac{
+    .ayrac {
         display: none;
     }
-    .nav-item:hover{
+
+    .nav-item:hover {
         background-color: black;
     }
-    .orta{
+
+    .orta {
         height: 100px;
     }
+}
+.teklif {
+    height: 60px;
+}
+.tirnak{
+    color: #D8090D;
+    font-size: 36px;
+    font-weight: bold;
+}
+.imza{
+    font-size: 20px;
 }
