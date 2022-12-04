@@ -173,3 +173,10 @@
 .portfoy-foto {
     height: 150px;
 }
+
+.blog a{
+    color: black;
+}
+.blog a:hover{
+    color: #D8090D;
+}
