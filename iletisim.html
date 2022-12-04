@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Bilişim Teknoloji</title>
+  <link rel="stylesheet" href="bootstrap.css" />
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" />
+  <script src="bootstrap.js"></script>
+</head>
+
+<body>
+  <!-- ÜST KISIM -->
+  <div class="ust-kisim-sayfalar">
+    <nav class="navbar navbar-expand-lg nav-bg">
+      <div class="container p-0">
+        <a class="navbar-brand" href="index.html">
+          <img class="img-fluid logo" src="image/homepage/logo2.png" alt="" />
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <li class="nav-item d-flex align-items-center p-2">
+              <a class="nav-link active" aria-current="page" href="hakkimizda.html">Hakkımızda</a>
+              <span class="ayrac">|</span>
+            </li>
+            <li class="nav-item d-flex align-items-center p-2">
+              <a class="nav-link" href="hizmetlerimiz.html">Hizmetlerimiz</a>
+              <span class="ayrac">|</span>
+            </li>
+            <li class="nav-item d-flex align-items-center p-2">
+              <a class="nav-link" href="portfoy.html">Portföyümüz</a>
+              <span class="ayrac">|</span>
+            </li>
+            <li class="nav-item d-flex align-items-center p-2">
+              <a class="nav-link" href="blog.html">Blog</a>
+              <span class="ayrac">|</span>
+            </li>
+            <li class="nav-item d-flex align-items-center p-2">
+              <a class="nav-link" href="iletisim.html">İletişim</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12 d-flex align-items-center header-yukseklik">
+          <img src="image/homepage/logo.png" class="img-fluid orta" />
+          <div class="sayfa-baslik ms-4">
+            <h3>İLETİŞİM</h3>
+            <p>Hizmetlerimiz ya da teklifleriniz hakkında bizlere 7/24 iletişim kurmak için aşağıdaki formu
+              kullanabilirsiniz</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- İLETİŞİM FORMU -->
+  <div class="container my-5">
+    <div class="row">
+      <div class="col-md-6">
+        <h4>İletişim Formu</h4>
+        <hr />
+        <form action="">
+          <div class="mb-3">
+            <label for="adSoyad" class="form-label">Adı Soyadı</label>
+            <input type="text" class="form-control" id="adSoyad" placeholder="Adınız ve Soyadınız?">
+          </div>
+          <div class="mb-3">
+            <label for="eMail" class="form-label">E-Mail Adresi</label>
+            <input type="email" class="form-control" id="eMail" placeholder="name@example.com">
+          </div>
+          <div class="mb-3">
+            <label for="konu" class="form-label">Konu</label>
+            <select class="form-select" id="konu" aria-label="Default select example">
+              <option selected>Teklif Alma</option>
+              <option value="1">Bilgi Edinme</option>
+              <option value="2">Muhabebe</option>
+              <option value="3">Bilgi İşlem</option>
+            </select>
+          </div>
+          <div class="mb-3">
+            <label for="mesaj" class="form-label">Mesaj</label>
+            <textarea class="form-control" id="mesaj" rows="3"></textarea>
+          </div>
+          <div class="mb-3 text-end">
+            <button class="btn btn-success btn-lg"><i class="fa-sharp fa-solid fa-bars-staggered me-2 simge"></i><i
+                class="fa-solid fa-envelope me-2 simge"></i>Gönder</button>
+          </div>
+        </form>
+      </div>
+      <div class="col-md-6">
+        <img src="image/iletisim/1.png" class="img-fluid">
+      </div>
+    </div>
+    <!-- ALT KISIM -->
+    <div class="row mt-3">
+      <div class="col-md-6">
+        <h4><i class="fa-sharp fa-solid fa-location-dot me-2"></i>Adres</h4>
+        <hr />
+        <p>Cumhuriyet Mah Gmk Bulvarı no:230 4/C Yenişehir - Mersin/Türkiye</p>
+        <h4><i class="fa-solid fa-phone me-2"></i>Telefon</h4>
+        <hr />
+        <p>+90 123 4567</p>
+        <h4><i class="fa-solid fa-envelope me-2"></i>E-Mail</h4>
+        <hr />
+        <p>name@example.com</p>
+      </div>
+      <div class="col-md-6"><iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d204617.76602306118!2d34.38881930507281!3d36.74290819085881!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1527f4a4c0be6e9f%3A0x4dbef2b1f81e7d77!2sMersin%2C%20Akdeniz%2FMersin%2C%20T%C3%BCrkiye!5e0!3m2!1str!2sus!4v1670161462606!5m2!1str!2sus"
+          width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"></iframe></div>
+    </div>
+  </div>
+  <!-- FOOTER ALANI -->
+  <div class="container-fluid footer">
+    <div class="row">
+      <div class="col-md-12 footer-sutun d-flex flex-column justify-content-center align-items-center">
+        <div class="icons text-center">
+          <i class="fa-brands fa-square-instagram fa-3x me-2"></i>
+          <i class="fa-brands fa-square-facebook fa-3x me-2"></i>
+          <i class="fa-brands fa-square-whatsapp fa-3x me-2"></i>
+          <i class="fa-brands fa-square-twitter fa-3x me-2"></i>
+          <i class="fa-brands fa-youtube fa-3x me-2"></i>
+          <i class="fa-brands fa-square-google-plus fa-3x me-2"></i>
+          <p class="mt-3">Copyright © 2022 Tüm Hakları Saklıdır</p>
+          <p>Tasarım | Bilişim | Teknoloji</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>
