@@ -68,7 +68,9 @@
     height: 200px;
     justify-content: center;
 }
-
+.calisan{
+    padding-right: 3px;
+}
 /* ! mobil kısmı */
 @media screen and (max-width:992px) {
     .ayrac {
